@@ -1,0 +1,10 @@
+/* Layout Component Styles */
+.app {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: var(--spacing-xl);
+}

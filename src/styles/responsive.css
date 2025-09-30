@@ -1,0 +1,55 @@
+/* Responsive Design */
+
+/* Mobile First Approach */
+@media (max-width: 768px) {
+  .container {
+    padding: var(--spacing-md);
+  }
+
+  .app-header__title {
+    font-size: var(--font-size-3xl);
+  }
+
+  .app-header__subtitle {
+    font-size: var(--font-size-base);
+  }
+
+  .search-input {
+    font-size: var(--font-size-base);
+    padding: 0.875rem 2.5rem 0.875rem 0.875rem;
+  }
+
+  .article-card {
+    padding: var(--spacing-md);
+  }
+
+  .article-title {
+    font-size: var(--font-size-xl);
+  }
+
+  .article-meta {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+}
+
+@media (max-width: 480px) {
+  .app-header__title {
+    font-size: 1.75rem;
+  }
+
+  .search-input {
+    padding: 0.75rem 2.25rem 0.75rem 0.75rem;
+  }
+
+  .article-card {
+    padding: 0.875rem;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .container {
+    padding: var(--spacing-2xl);
+  }
+}
