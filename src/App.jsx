@@ -1,13 +1,9 @@
-import React from "react";
 import { Layout, SearchBox, SearchResults } from "./components";
 import { articles } from "./data/articles";
 import { useSearch } from "./hooks";
 import "./App.css";
 
-/**
- * Main App Component
- * Root component that manages the search application state
- */
+
 function App() {
   const {
     searchQuery,
