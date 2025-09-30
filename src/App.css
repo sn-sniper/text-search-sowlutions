@@ -21,16 +21,6 @@
   margin: 0 auto;
 }
 
-/* Highlight styles */
-.highlight {
-  background: var(--color-highlight-gradient);
-  padding: 0.1rem 0.2rem;
-  border-radius: var(--border-radius-sm);
-  font-weight: 600;
-  color: #2d3436;
-  box-decoration-break: clone;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .app-header__title {
